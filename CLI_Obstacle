@@ -1,0 +1,46 @@
+#CLI obstacle Course
+
+# Clone the Directory and View Files
+
+1. git clone https://github.com/kevinlee702/CLI-Obstacle-Course.git
+2. cd CLI-Obstacle-Course
+3. ls
+4. ls -al
+
+# Move files and directories
+1. mv -v images/ /app/assets
+2. cd app 
+   cd views
+   cd static_pages
+3. ls 
+   ls ./..
+   ls ./../..
+4. mv this_is_the_annoying_ping_pong_text\!.txt ../this_is_the_annoying_ping_pong_text\!.txt     
+5. mv ../this_is_the_annoying_ping_pong_text\!.txt this_is_the_annoying_ping_pong_text\!.txt
+6. mv where_am_you\?.txt where_am_i\?.txt
+
+# Output to File
+1. pwd
+2. pwd >where_am_i\?.txt
+3. cd ~
+4. mv static_pages_controller.rb ../controllers/static_pages_controller.rb
+
+# Searching...
+1. find /*/ -name *controller*
+2. find . -name "*" |xargs grep bootinator
+3. cd app/assets/stylesheets
+   mv application_helper.rb ../../helpers/apllication_helper.rb
+4. rm -r delete_me
+
+# Winning.rb
+1. find . -name "*winning.rb"   
+2. cp ./config/environments/you_are_winning.rb you_are_winning.rb
+3. ruby you_are_winning.rb
+4. history
+
+# Reflection
+# This was a very helpful exercise in that I got to practise and get more comfortable with the command line.  I had to edit my history because it was very long.  I was confused in how to edit a gist so that also was fun to figure out.
+This was definitely one of the exercises I wanted to work on.  And I'm glad I got to see many ways to move around the directories.
+
+ 
+ 
